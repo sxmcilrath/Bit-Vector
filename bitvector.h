@@ -8,6 +8,8 @@ struct bit_vector {
 
 typedef struct bit_vector bit_vector_t;
 
+int numBytes(int bits);
+
 struct bit_vector *bv_create(int size);
 
 void bv_destroy(struct bit_vector *v);
